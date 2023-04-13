@@ -21,6 +21,12 @@ import accessorie from "../../images/acc.jpg";
 import portabledevice from "../../images/speaker.jpg";
 import home_appliance from "../../images/homeapp.jpg";
 import BlogCard from "../../components/BlogCard";
+import ProductCard from "../../components/ProductCard";
+import SpecialProduct from "../../components/SpecialProduct";
+import famous1 from "../../images/APPLE WATCH SERIES 8.jpeg";
+import famous2 from "../../images/iphone-14.jpeg";
+import famous3 from "../../images/macbook-pro.jpeg";
+import famous4 from "../../images/ipad-202210.jpeg";
 
 function Home() {
   return (
@@ -38,7 +44,7 @@ function Home() {
                 <div className="main-banner-content position-absolute">
                   <h4>SUPERCHARGED FOR PROS.</h4>
                   <h5>iPad S13+ Pro.</h5>
-                  <p>From $999.00 or $41.62/mo.</p>
+                  <p>From ₹999.00 or ₹41.62/mo.</p>
                   <Link className="button">Buy Now</Link>
                 </div>
               </div>
@@ -229,6 +235,113 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="features-wrapper home-wrapper-2  py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Featured Collection</h3>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="famous-wrapper  py-5  home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src={famous1} alt="" />
+                <div className="famous-content position-absolute">
+                  <h6>APPLE WATCH SERIES 8</h6>
+                  <h4>A healthy leap ahead. </h4>
+                  <p>₹45900.00 From ₹7233.00/mo.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src={famous2} alt="" />
+                <div className="famous-content position-absolute">
+                  <h6 className="text-black">IPHONE 14</h6>
+                  <h4 className="text-black">Wonderfull.</h4>
+                  <p className="text-black">₹79900.00 From ₹12483.00/mo.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src={famous3} alt="" />
+                <div className="famous-content position-absolute">
+                  <h6>MACBOOK PRO 14” AND 16”</h6>
+                  <h4>Mover. Maker. Boundary breker.</h4>
+                  <p>₹199900.00 From ₹31983.00/mo.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src={famous4} alt="" />
+                <div className="famous-content position-absolute">
+                  <h6 className="text-black">IPAD</h6>
+                  <h4 className="text-black">Loveable. Drawable. Magical. </h4>
+                  <p className="text-black">₹44900.00 From ₹6983.00/mo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="special-wrapper home-wrapper-2  py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Special Products</h3>
+            </div>
+          </div>
+          <div className="row">
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+          </div>
+        </div>
+      </section>
+      <section className="popular-wrapper home-wrapper-2  py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Popular Products</h3>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+            <div className="col-3">
+              <ProductCard />
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="marquee-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">
           <div className="row">
@@ -298,10 +411,26 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="blog-wrapper home-wrapper  py-5">
+      <section className="blog-wrapper home-wrapper-2  py-5">
         <div className="container-xxl">
           <div className="row">
-            <BlogCard />
+            <div className="col-12">
+              <h3 className="section-heading">Our Latest Blogs</h3>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
           </div>
         </div>
       </section>
