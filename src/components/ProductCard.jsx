@@ -20,7 +20,9 @@ function ProductCard(props) {
 
   return (
     <div
-      className={` ${location.pathname === "/ourstore" ? `col-${grid}` : "col-3"}`}
+      className={` ${
+        location.pathname === "/ourstore" ? `gr-${grid}` : "col-3"
+      }`}
     >
       <Link className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
@@ -45,6 +47,14 @@ function ProductCard(props) {
             edit={false}
             activeColor="#ffd700"
           />
+          <p className={`description  ${grid  === 12  ? "d-block" : "d-none" }`}>
+            The aerospace-grade titanium case strikes the perfect balance of
+            weight, durability and corrosion resistance. The Ocean Band is
+            moulded in a high-performance elastomer with a tubular geometry
+            allowing it to stretch for a perfect fit, even over a wetsuit. The
+            titanium buckle and adjustable loop secure the strap during
+            high-speed water sports.
+          </p>
           <p className="price">₹950</p>
         </div>
         <div className="action-bar position-absolute">
