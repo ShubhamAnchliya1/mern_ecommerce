@@ -643,3 +643,132 @@ footer .input-group-text {
   float: left;
   margin: 5px;
 }
+
+.auth-card-login {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.auth-card-login h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+
+.auth-card-login p {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+
+.auth-card-login .form-control {
+  font-size: 14px;
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.auth-card-login a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+
+.auth-card-login .signup {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+  border: none;
+}
+.auth-card-login .signup:hover {
+  background-color: var(--color-131921);
+  color: white;
+}
+
+
+.auth-card-login .button {
+  background-color: var(--color-232f3e);
+  color: white;
+  font-size: 14px;
+  padding: 13px 18px;
+  border-radius: 25px;
+}
+
+.auth-card-login .button:hover {
+  background-color: var(--color-b0adad);
+  color: #131921;
+}
+
+.auth-card-forgot-password {
+
+}
+
+.auth-card-forgot-password {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.auth-card-forgot-password h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+
+.auth-card-forgot-password p {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+
+.auth-card-forgot-password .form-control {
+  font-size: 14px;
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.auth-card-forgot-password a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+
+.auth-card-forgot-password .cancel {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+  border: none;
+}
+.auth-card-forgot-password .cancel:hover {
+  background-color: var(--color-131921);
+  color: white;
+}
+
+
+.auth-card-forgot-password .button {
+  background-color: var(--color-232f3e);
+  color: white;
+  font-size: 14px;
+  padding: 13px 18px;
+  border-radius: 25px;
+}
+
+.auth-card-forgot-password .button:hover {
+  background-color: var(--color-b0adad);
+  color: #131921;
+}
+
+
+
+
+
+
+

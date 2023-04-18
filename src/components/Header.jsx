@@ -51,7 +51,10 @@ function Header() {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link to="/compare-product"  className="d-flex align-items-center  gap-10  text-white">
+                  <Link
+                    to="/compare-product"
+                    className="d-flex align-items-center  gap-10  text-white"
+                  >
                     <img src={compare} alt="" />
                     <p className="mb-0">
                       Compare <br /> Products
@@ -59,7 +62,10 @@ function Header() {
                   </Link>
                 </div>
                 <div>
-                  <Link  to="/wishlist"  className="d-flex align-items-center  gap-10  text-white">
+                  <Link
+                    to="/wishlist"
+                    className="d-flex align-items-center  gap-10  text-white"
+                  >
                     <img src={wishlist} alt="" />
                     <p className="mb-0">
                       Favourite <br /> wishlist
@@ -67,7 +73,10 @@ function Header() {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center  gap-10  text-white">
+                  <Link
+                    to="/login"
+                    className="d-flex align-items-center  gap-10  text-white"
+                  >
                     <img src={user} alt="" />
                     <p className="mb-0">
                       Log in <br /> My Account
