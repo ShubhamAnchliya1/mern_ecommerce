@@ -766,7 +766,10 @@ footer .input-group-text {
   color: #131921;
 }
 
-
+.policy {
+  background-color: white;
+  padding: 30px;
+}
 
 
 

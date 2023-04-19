@@ -99,18 +99,18 @@ function Footer() {
                 <Link to="/shipping-policy" className="text-white py-2 mb-1">
                   Shipping Policy
                 </Link>
-                <Link to="/term-conditions" className="text-white py-2 mb-1">
+                <Link to="/terms-conditions" className="text-white py-2 mb-1">
                   Terms & Conditions
                 </Link>
-                <Link className="text-white py-2 mb-1">Blogs</Link>
+                <Link to="/blogs"    className="text-white py-2 mb-1">Blogs</Link>
               </div>
             </div>
             <div className="col-2">
               <h4 className="text-white mb-4">Account</h4>
               <div className="footer-link d-flex flex-column">
-                <Link className="text-white py-2 mb-1">About Us</Link>
-                <Link className="text-white py-2 mb-1">Faq</Link>
-                <Link className="text-white py-2 mb-1">Contact</Link>
+                <Link to="/about" className="text-white py-2 mb-1">About Us</Link>
+                <Link to=""    className="text-white py-2 mb-1">Faq</Link>
+                <Link to="/contact"    className="text-white py-2 mb-1">Contact</Link>
               </div>
             </div>
             <div className="col-2">
