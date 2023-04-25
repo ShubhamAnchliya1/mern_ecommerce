@@ -21,10 +21,10 @@ function ProductCard(props) {
   return (
     <div
       className={` ${
-        location.pathname === "/ourstore" ? `gr-${grid}` : "col-3"
+        location.pathname === "/product" ? `gr-${grid}` : "col-3"
       }`}
     >
-      <Link className="product-card position-relative">
+      <Link to=":id" className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
           <Link>
             <img src={wish} alt="" />
@@ -47,7 +47,7 @@ function ProductCard(props) {
             edit={false}
             activeColor="#ffd700"
           />
-          <p className={`description  ${grid  === 12  ? "d-block" : "d-none" }`}>
+          <p className={`description  ${grid === 12 ? "d-block" : "d-none"}`}>
             The aerospace-grade titanium case strikes the perfect balance of
             weight, durability and corrosion resistance. The Ocean Band is
             moulded in a high-performance elastomer with a tubular geometry

@@ -243,18 +243,10 @@ function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
           </div>
         </div>
       </section>
@@ -327,18 +319,10 @@ function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
-            <div className="col-3">
-              <ProductCard />
-            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
           </div>
         </div>
       </section>
