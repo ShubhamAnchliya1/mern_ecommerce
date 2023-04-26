@@ -84,7 +84,10 @@ function Header() {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-items-center  gap-10  text-white">
+                  <Link
+                    to="/cart"
+                    className="d-flex align-items-center  gap-10  text-white"
+                  >
                     <img src={cart} alt="" />
                     <div className="d-flex flex-cloumn  gap-10">
                       <span className="badge  bg-white text-dark">0</span>
