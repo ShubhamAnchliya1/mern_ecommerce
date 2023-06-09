@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Meta from "../../components/Meta";
 import BreadCrumb from "../../components/BreadCrumb";
 import Container from "../../components/Container";
+import CustomInput from "../../components/CustomInput";
 
 function SignUp() {
   return (
@@ -15,39 +16,65 @@ function SignUp() {
             <div className="auth-card-login">
               <h3 className="text-center mb-3">Create a new account</h3>
               {/* <form action="" className="d-flex flex-cloumn gap-15 "> */}
-              <form action="" className="gap-15">
-                <div className="mb-3">
+              <form action="" className="gap-15  flex-cloumn">
+                {/* <div className="mb-3">
                   <input
                     type="text"
                     name="name"
                     className="form-control"
                     placeholder="Enter your full name"
                   />
-                </div>
-                <div className="mb-3">
+                </div> */}
+
+                <CustomInput
+                  type="text"
+                  name="name"
+                  placeholder="Enter your Name"
+                  className="mb-3"
+                />
+                <CustomInput
+                  type="email"
+                  name="email"
+                  placeholder="Enter your Email"
+                  className="mb-3"
+                />
+                <CustomInput
+                  type="tel"
+                  name="mobile"
+                  placeholder="Enter your Mobile Number"
+                  className="mb-3"
+                />
+                <CustomInput
+                  type="password"
+                  name="password"
+                  placeholder="Enter your Password"
+                  className="mb-3"
+                />
+
+                {/* <div className="mb-3">
                   <input
                     type="tel"
                     name="mobilenumber"
                     className="form-control"
                     placeholder="Enter your mobile number"
                   />
-                </div>
-                <div className="mb-3">
+                </div> */}
+                {/* <div className="mb-3">
                   <input
                     type="email"
                     name="email"
                     className="form-control"
                     placeholder="Enter your email"
                   />
-                </div>
-                <div className="mb-3">
+                </div> */}
+                {/* <div className="mb-3">
                   <input
                     type="password"
                     name="password"
                     className="form-control"
                     placeholder="Enter your password"
                   />
-                </div>
+                </div> */}
                 <div>
                   <div className="mt-3 d-flex justify-content-center gap-15 align-items-center ">
                     <button className="button border-0" type="submit">

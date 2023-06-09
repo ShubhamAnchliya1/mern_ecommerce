@@ -9,8 +9,8 @@ function CustomInput(props) {
         <input
           type={type}
           name={name}
-          className={className}
-          placeholder={`form-control ${placeholder}`}
+          placeholder={placeholder}
+          className={`form-control ${className}`}
         />
       </div>
     </>

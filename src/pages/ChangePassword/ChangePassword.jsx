@@ -3,6 +3,7 @@ import Meta from "../../components/Meta";
 import BreadCrumb from "../../components/BreadCrumb";
 import { Link } from "react-router-dom";
 import Container from "../../components/Container";
+import CustomInput from "../../components/CustomInput";
 
 function ChangePassword() {
   return (
@@ -15,30 +16,26 @@ function ChangePassword() {
             <div className="auth-card-forgot-password">
               <h3 className="text-center mb-3">Change Your Password </h3>
               <form action="" className="gap-15">
-                <div className="mb-3">
-                  <input
-                    type="password"
-                    name="oldpassword"
-                    className="form-control"
-                    placeholder="Enter your old password"
-                  />
-                </div>
-                <div className="mb-3">
-                  <input
-                    type="password"
-                    name="newpassword"
-                    className="form-control"
-                    placeholder="Enter your new password"
-                  />
-                </div>
-                <div className="mb-3">
-                  <input
-                    type="password"
-                    name="confirmpassword"
-                    className="form-control"
-                    placeholder="Enter your confirm password"
-                  />
-                </div>
+                <CustomInput
+                  type="password"
+                  name="oldpassword"
+                  className="mb-3"
+                  placeholder="Enter your old password"
+                />
+
+                <CustomInput
+                  type="password"
+                  name="newpassword"
+                  className="mb-3"
+                  placeholder="Enter your new password"
+                />
+
+                <CustomInput
+                  type="password"
+                  name="confirmpassword"
+                  className="mb-3"
+                  placeholder="Enter your confirm password"
+                />
 
                 <div>
                   <div className="mt-3 d-flex justify-content-center gap-15 align-items-center ">

@@ -239,7 +239,7 @@ function Home() {
         <div className="row">
           <div className="col-3">
             <div className="famous-card position-relative">
-              <img src={famous1} alt="" />
+              <img src={famous1} alt="" className="img-fluid" />
               <div className="famous-content position-absolute">
                 <h6>APPLE WATCH SERIES 8</h6>
                 <h4>A healthy leap ahead. </h4>
@@ -249,7 +249,7 @@ function Home() {
           </div>
           <div className="col-3">
             <div className="famous-card position-relative">
-              <img src={famous2} alt="" />
+              <img src={famous2} alt="" className="img-fluid" />
               <div className="famous-content position-absolute">
                 <h6 className="text-black">IPHONE 14</h6>
                 <h4 className="text-black">Wonderfull.</h4>
@@ -259,7 +259,7 @@ function Home() {
           </div>
           <div className="col-3">
             <div className="famous-card position-relative">
-              <img src={famous3} alt="" />
+              <img src={famous3} alt="" className="img-fluid" />
               <div className="famous-content position-absolute">
                 <h6>MACBOOK PRO 14” AND 16”</h6>
                 <h4>Mover. Maker. Boundary breker.</h4>
@@ -269,7 +269,7 @@ function Home() {
           </div>
           <div className="col-3">
             <div className="famous-card position-relative">
-              <img src={famous4} alt="" />
+              <img src={famous4} alt="" className="img-fluid" />
               <div className="famous-content position-absolute">
                 <h6 className="text-black">IPAD</h6>
                 <h4 className="text-black">Loveable. Drawable. Magical. </h4>
